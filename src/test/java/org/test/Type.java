@@ -5,9 +5,14 @@ public class Type {
 		System.out.println("hi");
 
 	}
+	private void empNum() {
+		System.out.println("12");
+
+	}
 public static void main(String[] args) {
 
 	Type t= new Type();
 	t.empId();
+	t.empNum();
 }
 }
